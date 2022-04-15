@@ -11,6 +11,8 @@ namespace Streamish.Models
         [Required]
         public string Name { get; set; }
 
+        public string FirebaseUserId { get; set; }
+
         [Required]
         public string Email { get; set; }
 
